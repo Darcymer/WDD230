@@ -1,5 +1,8 @@
 Header{
     background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow:hidden;
 }
 
 body {
@@ -25,9 +28,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
-    border: 1px solid black;
-    border-radius: 1em;
-    overflow: hidden;
 }
 img{
     width: auto;
