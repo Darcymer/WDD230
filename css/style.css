@@ -4,16 +4,38 @@ Header{
 
 body {
      background-color:beige;
+     margin: 50px;
+     margin-left: 350px;
+     margin-right: 350px;
 }
-#content {
+.content {
+    max-width: 500px;
     margin: auto;
-}
+  }
 
 footer{
     background-color: greenyellow;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow: hidden;
 }
 .Headgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow: hidden;
+}
+img{
+    width: auto;
+    margin: 20px;
+}
+h1{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    margin: auto;
 }
