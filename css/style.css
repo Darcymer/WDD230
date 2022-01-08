@@ -1,11 +1,19 @@
+Header{
+    background-color: greenyellow;
+}
+
 body {
      background-color:beige;
 }
-
-h1{
-    color: blue;
+#content {
+    margin: auto;
 }
 
-p{
-    color: red;
+footer{
+    background-color: greenyellow;
+}
+.Headgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
