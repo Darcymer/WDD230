@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Rubik:wght@300&display=swap");
 
 
-Header{
+header{
     background-color: greenyellow;
     border: 1px solid black;
     border-radius: 1em;
@@ -29,14 +29,15 @@ footer{
     border-radius: 1em;
     overflow: hidden;
 }
-.Headgrid{
+.headgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 img{
-    width: auto;
+    width: 100%;
     margin: 20px;
+    height: auto;
 }
 h1{
     grid-column: 2;
