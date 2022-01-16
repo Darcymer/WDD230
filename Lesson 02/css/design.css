@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital@1&display=swap");
+
 header{
     background-color: greenyellow;
     border: 1px solid black;
@@ -10,7 +12,6 @@ body {
     margin: auto;
     max-width: 960px;
     font-size: 100%;
-    font-family: Verdana, sans-serif;
 }
 .content {
     max-width: 500px;
@@ -31,4 +32,42 @@ h1, h2{
     margin: auto;
     font-family: "Acme", serif;
     font-size: 32px;
+    font-family: Oswald, sans-serif;
+}
+h3{
+    background-color: greenyellow;
+    overflow:hidden; 
+    margin: 1px;
+    padding: 10px;
+    font-family: Oswald, sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+section{
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow:hidden; 
+    background-color: lightpink;
+}
+ img{
+    margin: 5px;
+}
+
+#basic{
+    grid-template-columns: 1;
+}
+#Imdb{
+    grid-template-columns: 2;
+}
+#Hbomax{
+    grid-template-columns: 3;
+}
+p{
+    font-family: Playfair Display, sans-serif;
+}
+p1{
+    font-family: Verdana, sans-serif;
 }

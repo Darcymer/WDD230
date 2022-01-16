@@ -1,0 +1,21 @@
+
+/*Large*/
+@media screen and (min-width: 800px){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/*Medium*/
+@media screen and (max-width: 750px ){
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+/*Small*/
+@media screen and (max-width: 450px ){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
