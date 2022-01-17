@@ -1,7 +1,7 @@
 let date = new Date();
 let year = date.getFullYear();
 
-console.log(year); //or (for the full date)
+//console.log(year); //or (for the full date)
 
 document.querySelector('.copywright').innerHTML = "<p> &copy" + year + " | Darcy Merilan | Last Update: " + document.lastModified + " </p>";
 //another way....
