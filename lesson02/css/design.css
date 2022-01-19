@@ -56,18 +56,15 @@ section{
     margin: 5px;
 }
 
-#basic{
+.basic{
     grid-template-columns: 1fr;
 }
-#Imdb{
+.Imdb{
     grid-template-columns: 2fr;
 }
-#Hbomax{
+.Hbomax{
     grid-template-columns: 3fr;
 }
 p{
     font-family: Playfair Display, sans-serif;
-}
-p1{
-    font-family: Verdana, sans-serif;
 }
