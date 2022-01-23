@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Overpass:ital@1&display=swap");
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #52d7e8;
+}
+header {
+    display: block;
+    background-color: #a037c8; 
+    margin: auto;
+    text-align: center;
+    margin: auto;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+    background-color: #7fdb42; 
+}
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+nav ul{
+    list-style: none; 
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+    color: black;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+
+p, li{
+    font-family: Overpass, sans-serif;
+}
+h1, h2, h3{
+    font-family: Lobster, sans-serif;
+}
+footer {
+    background-color: #a037c8; 
+    text-align: center;
+    font-weight: bold;
+}
+main {
+    max-width: 500px;
+    margin: auto;
+  }
+h1{
+    margin: auto;
+}
